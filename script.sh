@@ -1,5 +1,5 @@
 az ad sp create-for-rbac --name "randomname" --role contributor --scopes /subscriptions/f8c21577-3fbf-4cc4-8289-016b002378cd --sdk-auth
-
+{
 "clientId": "be6c0390-165a-45f5-9f35-04646f3a82ad",
   "clientSecret": "ICG8Q~dKdrS_ac2ZFz~RF4fUbq..4V6-Y7o63aWx",
   "subscriptionId": "f8c21577-3fbf-4cc4-8289-016b002378cd",
@@ -10,3 +10,4 @@ az ad sp create-for-rbac --name "randomname" --role contributor --scopes /subscr
   "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
   "galleryEndpointUrl": "https://gallery.azure.com/",
   "managementEndpointUrl": "https://management.core.windows.net/"
+}
