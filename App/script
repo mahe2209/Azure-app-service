@@ -1,0 +1,1 @@
+az ad sp create-for-rbac --name "randomname" --role contributor --scopes /subscriptions/f8c21577-3fbf-4cc4-8289-016b002378cd --sdk-auth
